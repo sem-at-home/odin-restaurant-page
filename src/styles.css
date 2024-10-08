@@ -1,0 +1,30 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.navigation-header {
+    align-self: stretch
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 80px;
+}
+
+#content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+}
