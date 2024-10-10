@@ -4,8 +4,8 @@
     "main": "dist/main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "webpack",
-      "dev": "webpack serve"
+      "build": "webpack --config webpack.prod.js",
+      "dev": "webpack serve --config webpack.dev.js"
     },
     "keywords": [
       "restaurant"
