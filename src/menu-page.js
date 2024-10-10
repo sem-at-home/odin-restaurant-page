@@ -1,11 +1,5 @@
-import sblaupot from './sblaupot.png'
-
 export default function menuPage() {
   const contentDiv = document.querySelector('#content')
-
-  const restaurantImage = document.createElement('img')
-  contentDiv.appendChild(restaurantImage)
-  restaurantImage.src = sblaupot
 
   const title = document.createElement('h1')
   title.innerHTML = 'De Fat Pot'
